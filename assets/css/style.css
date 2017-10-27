@@ -1,15 +1,100 @@
-.carousel-item {
-  width: 100%;
+.parallax {
+	position: sticky;
+	position: fixed;
+	width: 100%;
+	left: 0px;
 }
-.carousel-inner{
-  width:100%;
-  max-height: 300px !important;
+
+.slide2 {
+  height: 250px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.homeSlider {
-	padding-top: 10px;
-	padding-bottom: 10px;
+
+
+img {
+    width:100%; 
+    height:500px; 
+    padding-top: 80px;
 }
-.testimonialSlider {
-	padding-top: 10px;
-	padding-bottom: 10px;
+
+.row {
+	padding: 10px;
 }
+
+#slideshow2 { 
+    margin: auto; 
+    position: sticky; 
+    position: relative;
+    width: 100%;  
+    z-index: -1;
+}
+
+
+#image-holder {
+  margin: 0 auto;
+  width: 100%;       
+  text-align: center;
+  z-index: -1;
+}
+
+#CallToAction {
+  top: 350px;
+  left: 50px;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+
+}
+
+.welcome {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: #282828;
+  color: white;
+  height: 120px !important;
+}
+
+#navbarNav {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+      grid-column: 3;
+}
+
+.navlist a:hover {
+  color: white;
+}
+
+.navlist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.parallax h1 {
+    font-size: 45px !important;
+    padding: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Stardos Stencil', cursive;
+  color: white;
+}
+
+
+
+
+
+
+
+

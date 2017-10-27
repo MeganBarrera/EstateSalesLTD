@@ -61,7 +61,7 @@ function carousel2() {
     slideIndex++;
     if (slideIndex > z.length) {slideIndex = 1} 
     z[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel2, 6000); 
+    setTimeout(carousel2, 10000); 
 }
 
 

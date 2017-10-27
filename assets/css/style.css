@@ -6,11 +6,12 @@
 }
 
 .slide2 {
-  height: 250px;
+  height: 300px;
   text-align: center;
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: auto;
 }
 
 
@@ -20,21 +21,15 @@ img {
     padding-top: 80px;
 }
 
-.row {
-	padding: 10px;
-}
-
 #slideshow2 { 
-    margin: auto; 
+    margin:auto;
     position: sticky; 
     position: relative;
     width: 100%;  
     z-index: -1;
 }
 
-
 #image-holder {
-  margin: 0 auto;
   width: 100%;       
   text-align: center;
   z-index: -1;
@@ -52,11 +47,6 @@ header {
   position: fixed;
   z-index: 100;
 
-}
-
-.welcome {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .navbar {
@@ -91,7 +81,13 @@ header {
   color: white;
 }
 
+.welcome, .promotions {
+  background-color: #E0E0E0;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 
+}
 
 
 

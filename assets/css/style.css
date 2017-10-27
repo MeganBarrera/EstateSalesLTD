@@ -1,3 +1,8 @@
+.slide2 {
+  font-size: 22px;
+}
+
+
 .parallax {
 	position: sticky;
 	position: fixed;
@@ -8,7 +13,7 @@
 .slide2 {
   height: 300px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: auto;
@@ -92,6 +97,7 @@ header {
 #icons {
   padding: 10px;
   display: inline-block;
+  background-color: white;
 }
 
 input.name-input {
@@ -131,24 +137,26 @@ textarea {
 }
 
 .footer {
-  background-color: gray;
+  background-color: #525252;
 }
 
 #card1 {
   padding: 20px;
   margin: 20px;
   margin-left: 40px;
+  color: white;
 }
 
-.col-sm-7 {
+#card2 {
   padding: 20px;
   margin: 20px;
   margin-right: 0px;
+  color: #3395ff !important;
 }
 
-
-
-
+.card-title {
+  color: #3395ff !important;
+}
 
 
 
